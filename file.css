@@ -1,0 +1,57 @@
+@import "tailwindcss";
+@plugin "daisyui"; 
+
+body{
+  @apply bg-gray-200 min-h-screen flex flex-col;
+}
+
+/* main navbar */
+#navb{
+  @apply flex h-16 shadow-md;
+}
+
+/* logo section */
+#navb a{
+  @apply flex flex-row items-center px-6 text-2xl font-extrabold text-red-600 bg-white;
+}
+
+/* strap container */
+#straps{
+  @apply flex flex-row grow;
+}
+
+/* straps */
+#s1{
+  @apply bg-red-600 text-white grow flex flex-row items-center justify-center hover:bg-black transition;
+}
+
+#s2{
+  @apply bg-white grow flex flex-row items-center justify-center hover:bg-gray-200  transition;
+}
+
+#s3{
+  @apply bg-red-600 text-white grow flex flex-row items-center justify-center hover:bg-black  transition;
+}
+#mainp1{
+    @apply  shadow-xl border-3 border-black ;
+}
+#mainp2{
+    @apply  shadow-xl border-3 border-black;
+}
+#mainp3{
+    @apply  shadow-xl border-3 border-black;
+}
+#mainp4{
+    @apply  shadow-xl border-3 border-black;
+}
+#mainp5{
+    @apply  shadow-xl border-3 border-black;
+}
+#mtag{
+  @apply p-6 flex flex-wrap justify-center gap-6 flex-grow mb-10;
+}
+
+
+#foot{
+    @apply fixed bottom-0 left-0 w-full bg-red-600 text-white p-4 text-center;
+}     

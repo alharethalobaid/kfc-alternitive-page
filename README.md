@@ -1,2 +1,2 @@
-# kfc-alternitive-page
-a simple kfc landing page 
+# base html
+html css tw daisy ui
