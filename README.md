@@ -1,2 +1,2 @@
-# base html
-html css tw daisy ui
+the link
+https://alharethalobaid.github.io/kfc-alternitive-page/
